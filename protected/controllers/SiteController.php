@@ -21,8 +21,12 @@ class SiteController extends Controller
 		);
 	}
 
-	public function actionBookDetail()
+	public function actionBookDetail($id)
 	{
+
+		//$book = Book::model()->findByPk($id);
+		//$data = array('book' => $book );
+		//$this->render('bookdetail', $data);
 		$this->render('bookdetail');
 	}
 
@@ -34,6 +38,8 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
+		//$books = Book::model()->findAll();
+		//$this->render('index', array('books'=>$books));
 		$this->render('index');
 	}
 
