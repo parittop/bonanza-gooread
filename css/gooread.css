@@ -1,0 +1,64 @@
+body {
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+ 
+#header{
+		height: 40px;
+		background-color: #0088CC
+}
+
+	#books .book{
+		display: block;
+		background-color: #FED;
+		float: left;
+		width: 200px;
+		height: 500px;
+		margin-right: 12px;
+		overflow: hidden;
+	}
+	#books{
+		width: 636px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.book{
+		padding-left: 0px;
+	}
+	.clear{
+		clear: both;
+	}
+
+	*.clear{
+		display: block;
+		clear: both;
+	}
+
+	#books .book h1 {
+		margin: 0px;
+		margin-bottom: 12px;
+		font-size: 1.2em;
+	}
+
+	#books .book .detail{
+		line-height: 1.5em;
+	}
+
+.bookdetail .bookprop{
+	display: block;
+}
+	.bookdetail .bookcover{
+		display: block;
+		float: left;
+		width: 200px;
+		height: 1000px;
+		margin-right: 50px;
+	}
+
+	.bookdetail .bookprop h1 { 
+		font-size: 1.2em;
+	}
+
+	.normalspan {
+		font-weight: normal;
+	}
